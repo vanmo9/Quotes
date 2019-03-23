@@ -1,8 +1,8 @@
 # Quotes
-
+This is an angular web application that allows users to write Quotes,
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.5.
 ## Author
-* Mohamed Hassan Mohamed 
+* Mohamed Hassan Mohamed
 
 ## Development server
 
@@ -23,6 +23,16 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 ## Running end-to-end tests
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Technologies Used
+-   HTML
+-   CSS
+-   JavaScript and jQuery
+-   Bootstrap
+##Contact Information
+
+Email (vanmowha@gmail.com)
+## Live Link
+- [Quotes] (https://vanmo9.github.io/Quotes/)
 
 ## Further help
 
