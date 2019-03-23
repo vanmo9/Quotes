@@ -3,6 +3,8 @@ This is an angular web application that allows users to write Quotes,
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.5.
 ## Author
 * Mohamed Hassan Mohamed
+##Project Description
+This web application allows users to write Quotes , upvote or downvote the Quotes and when delete the whenever they want
 
 ## Development server
 
