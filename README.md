@@ -37,7 +37,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 -   CSS
 -   JavaScript and jQuery
 -   Bootstrap
-##Contact Information
+## Contact Information
 Email (vanmowha@gmail.com)
 ## Live Link
 - [Quotes] (https://vanmo9.github.io/Quotes/)
