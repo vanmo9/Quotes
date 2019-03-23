@@ -11,7 +11,7 @@ This web application allows users to write Quotes , upvote or downvote the Quote
 
 2.  Copy the clone command.
 3. From terminal you use
-'git clone https://github.com/vanmo9/Quotes.git/'
+'$ git clone https://github.com/vanmo9/Quotes.git/'
 
 ## Development server
 
