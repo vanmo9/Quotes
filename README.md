@@ -40,7 +40,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Contact Information
 Email (vanmowha@gmail.com)
 ## Live Link
-- [Quotes] (https://vanmo9.github.io/Quotes/)
+[Quotes](https://vanmo9.github.io/Quotes/)
 
 ## Further help
 
