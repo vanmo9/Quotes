@@ -2,12 +2,9 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
+  templateUrl: './app.component.html'
 })
 export class AppComponent {
-  quotes: string[];
-
-  contructor() {
-    this.quotes = ["mo","hassan", "farah"];
-  }
+quote =
+constructor(){}
 }
