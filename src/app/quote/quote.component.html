@@ -1,13 +1,12 @@
 <div class="container">
   <h1>Quotes</h1>
   <hr>
-  <app-quote-form(addQuote)="addNewQuote($event)">
-    </app-quote-form>
-    <div class="row" *ngFor='let quote of quotes;let i = index'>
-      <p id="{{i}}">{{quote.name}} posted on {{quote.complete|date|uppercase}}</p>
-      <button class="btn btn-primary" (click)='toogleDetails(i)'>Details</button>
-    </div>
-    <div class="row" *ngIf="quote.showDescription">
-      <app-quote-details [quote]='quote' (isComplete)='deleteQuote($event,1)'></app-quote-details>
-    </div>
+  <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
+  <div class="row" *ngFor='let quote of quotes;let i = index'>
+    <p id="{{i}}">{{quote.name}} posted on {{quote.complete|date|uppercase}}</p>
+    <button class="btn btn-primary" (click)='toogleDetails(i)'>Details</button>
+  </div>
+  <div class="row" *ngIf="quote.showDescription">
+    <app-quote-details [quote]='quote' (isComplete)='deleteQuote($event,1)'></app-quote-details>
+  </div>
 </div>
