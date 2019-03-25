@@ -1,9 +1,11 @@
 <div class="container">
   <h1>Quotes</h1>
   <hr>
-  <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
+  <div class="row">
+    <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
+  </div>
   <div class="row" *ngFor='let quote of quotes;let i = index'>
-    <p id="{{i}}">{{quote.name}} posted on {{quote.complete|date|uppercase}}</p>
+    <h4 id="{{i}}">{{quote.name}} posted on {{quote.complete|date|uppercase}}</h4>
     <button class="btn btn-primary" (click)='toogleDetails(i)'>Details</button>
   </div>
   <div class="row" *ngIf="quote.showDescription">
